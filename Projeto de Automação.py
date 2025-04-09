@@ -25,7 +25,7 @@ pyautogui.press('tab')                # Vai para o botão de login
 pyautogui.press('enter')              # Realiza o login
 
 # Leitura da planilha de produtos
-tabela = pd.read_csv(r'/home/beatriz/Documentos/Intensivo Python/produtos.csv')
+tabela = pd.read_csv(r'produtos.csv')
 
 # Preenche o formulário para cada produto
 for linha in tabela.index:
